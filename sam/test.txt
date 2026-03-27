@@ -1,1 +1,4 @@
 git commands trial
+git init
+git add .
+git add remote origin url
