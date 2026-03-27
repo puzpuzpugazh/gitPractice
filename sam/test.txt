@@ -1,1 +1,8 @@
-git commands version
+
+git commands trial
+git init
+git add .
+git add remote origin url
+this is the test version for backup
+git stash push -m "backup01"
+
