@@ -1,4 +1,37 @@
 git commands trial
 git init
+
+
+git add remote origin <url>        // to set remote url
+git remote -v          // to check the remote url
+git remote set-url origin <NEW_GIT_URL_HERE>   // to change remote url
+
+
+git branch 
+git branch -a
+git branch <new_branch_name>
+git checkout -b <new_branch_name>
+git checkout <existing_branch_name>
+git switch <existing_branch_name>
+
+git pull
+git pull origin <from_other_branch/same_branch>
+
+git status
+
 git add .
-git add remote origin url
+
+git commit -m "<Commit_message>"
+
+
+git push
+git push origin <from_other_branch/same_branch>
+git push origin <from_other_branch/same_branch> --force
+
+git log   // to to get all the commit history
+git revert <commit_hash> // to revert a specific commit ever after the push but not sure after the PR approval
+
+git merge <from_which_branch> // to directly merge an other branch change to current branch (without push-PR-review-approval-merge)
+
+:wq // write and quit to exit from the comand line interface to solve the merge or conflit 
+:q! // quit and ignore
