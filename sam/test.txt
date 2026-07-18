@@ -21,6 +21,12 @@ git status
 
 git add .
 
+git stash push --staged -m "stash message"
+git stash list
+git stash apply stash@{0}
+git stash pop stash@{0}
+git stash drop stash@{0}
+
 git commit -m "<Commit_message>"
 
 
