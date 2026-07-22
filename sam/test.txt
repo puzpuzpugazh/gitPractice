@@ -1,5 +1,8 @@
 git commands trial
-git init
+===================
+
+To initializa git in our local
+git init    
 
 
 git add remote origin <url>        // to set remote url
