@@ -1,10 +1,11 @@
 git commands trial
 ===================
 
-To initializa git in our local
+To initializ a git in our local
 git init    
 
 
+To add / modify remote repo to local
 git add remote origin <url>        // to set remote url
 git remote -v          // to check the remote url
 git remote set-url origin <NEW_GIT_URL_HERE>   // to change remote url
